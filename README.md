@@ -12,14 +12,19 @@ MAC OS X:
 5. Delete blocks.bin and blockindexes.bin if they are present, leave this folder open for step 6
 6. Once the files have been downloaded, open the downloads folder and move the downloaded blocks.bin and blockindexes.bin to directory ~/.bytecoin folder that you left open.
 
-Voila, problem solved. Start the app again and you'll see the blockchain importing
+Voila, problem solved. Start the app again and you'll see the blockchain importing.
 
 Please pass this on since this seems to be a common problem that the developers aren't addressing in forums.
 
 DONATE!!!
 BCN:
+
 BTC: 1LuWhENdBEMhsEosCwbtvUpEJJpAWQ3dZX
+
 ZEC: t1fcyS75C94zSJ2LmLsNPKe2R6pASaDkevi
+
 LTC: LU3X572D3Zu3adespXBq4CAH3CbDpT89V5
+
 ETH: 0xc03cfd2c036ba8d462b7ecf0529ed8090172d6cc
+
 ETC: 0x35291c336cd22a6876830b4c7769a2815430b02b

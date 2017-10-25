@@ -16,7 +16,8 @@ Voila, problem solved. Start the app again and you'll see the blockchain importi
 
 Please pass this on since this seems to be a common problem that the developers aren't addressing in forums.
 
-DONATE!!!
+PLEASE DONATE!!!
+
 BCN:
 
 BTC: 1LuWhENdBEMhsEosCwbtvUpEJJpAWQ3dZX
@@ -28,3 +29,5 @@ LTC: LU3X572D3Zu3adespXBq4CAH3CbDpT89V5
 ETH: 0xc03cfd2c036ba8d462b7ecf0529ed8090172d6cc
 
 ETC: 0x35291c336cd22a6876830b4c7769a2815430b02b
+
+TZC: Ttk84BWjYGmpKDAAmcPRcmJjhxY6RJq8eG

@@ -36,7 +36,7 @@ MAC OS X still having issues:
 1. Moving past this step can remove your wallet, I would suggest moving all wallet files from ~/.bytecoin before moving forward. I didn't have money in my wallet since it wasn't established so this wasn't an issue.
 2. Move the blocks.bin and blockindexes.bin files out of the ~/.bytecoin directory.  I put them back in downloads. Remove the Bytecoin wallet app, empty the trash bin. Eject all Bytecoin wallets images loaded, I did this through finder under devices.
 3. Open up the mac terminal. Search for terminal in spotlight or go to Application - Utilities -Terminal
-4. Warning Step 5 will delete the entire hidden folder so you can do a fresh reinstall. EVERYTHING WILL BE GONE FROM THIS FOLDER.
+4. Warning Step 5 will delete the entire hidden folder so you can do a fresh reinstall. EVERYTHING WILL BE GONE FROM THIS FOLDER
 5. sudo rm -r ~/.bytecoin
 6. Now go back to your downloads and open up the BytecoinWallet-1.1.9.3.dmg file or redownload the offical wallet from the website https://bytecoin.org/downloads
 7. Install and copy the wallet to your applications.  Open your applications then it should start syncing.
@@ -44,6 +44,7 @@ MAC OS X still having issues:
 9. Press Cmd+Shift+G or select from menu Go -> Go to Folder and type ~/.bytecoin and press Enter
 10. Delete blocks.bin and blockindexes.bin if they are present, leave this folder open for step 11
 11. Move the downloaded blocks.bin and blockindexes.bin to directory ~/.bytecoin folder that you left open.
+12. Relaunch the app and you should see it importing with the blockchain faster, then if you had not moved the blocks.bin and blockindexes.bin into the ~/.bytecoin directory
 
 LINUX:
 1. Follow step 1 of MAC OS X instructions

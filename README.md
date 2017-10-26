@@ -7,7 +7,7 @@ Follow these steps exactly, if you haven't already sent BCN to your wallet addre
 
 MAC OS X, no BCN in or sent to the wallet:
 1. Moving past this step will remove your wallet. See instructions below the donation section for suggestions and steps if you had or sent BCN already.
-2. Delete the Bytecoin wallet application and .dmg install files. Empty trash. Eject all Bytecoin wallet images. Seriously nothing can be on your computer associated the previous version of the Bytecoin wallet.  You're doing a fresh install through the process.
+2. Delete the Bytecoin wallet application and .dmg install files. Empty trash. Eject all Bytecoin wallet images. Seriously nothing can be on your computer associated the previous version of the Bytecoin wallet.  You're doing a fresh install through these steps.
 3. Open up the terminal. You can find terminal by searching for terminal in spotlight or go to Application - Utilities -Terminal.
 4. Warning Step 5 will delete the entire hidden folder so you can do a fresh reinstall. EVERYTHING WILL BE GONE FROM THIS FOLDER INCLUDING YOUR WALLET FILE, which is why I say see below if you have money in your wallet.
 5. Type "sudo rm -r ~/.bytecoin" in the terminal with no quotes.

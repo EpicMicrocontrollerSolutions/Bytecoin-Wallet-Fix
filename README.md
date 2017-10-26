@@ -13,15 +13,15 @@ MAC OS X, no BCN in or sent to the wallet:
 5. Type "sudo rm -r ~/.bytecoin" in the terminal with no quotes.
 6. Download the official wallet from the website https://bytecoin.org/downloads.
 7. Go to the official site for downloading the Bytecoin block chain https://blockchain.bytecoin.org and download the blocks.bin and blockindexes.bin files.
-8. Open the BytecoinWallet-1.1.9.3.dmg file and after install move to your application.
-9. Now this is important, open the app and then immediately close it. The reason for this is the ~/.bytecoin folder wasn't re-created after installing the app, I had to launch the app for the hidden folder to create. But don't let the blockchain start syncing, seriously immediately close it I had to do this like 3 times. 
+8. Open the BytecoinWallet-1.1.9.3.dmg file and after install move to your Application folder.
+9. In the terminal, type "cd ~/.bytecoin" with no quotes, and you should get a "No such file or directory" error.  If for some reason you don't get this error and you already have the ~/.bytecoin directory, maybe don't open the Bytecoin wallet and proceed to step 10, but it seems opening Bytecoin wallet app for the first time creates the ~/.bytecoin folder. If you did get the "No such file or directory: error this is important, open the app and then immediately close it. The reason for this is the ~/.bytecoin folder wasn't re-created for me after installing the app, I had to launch the app for the ~/.bytecoin folder to create. But don't let the blockchain start syncing, seriously immediately close it. I had to do this like 3 times, if it starts syncing for more than a few seconds you'll get the blockchain error.  
 10. Press Cmd+Shift+G or select from menu Go -> Go to Folder and type ~/.bytecoin and press Enter
-11. Delete blocks.bin and blockindexes.bin, they should have very kb range file sizes, and leave this folder open for step 12. You just removed the unsynced blockchain files.
-12. Move the copies of blocks.bin and blockindexes.bin that you downloaded to the directory ~/.bytecoin folder that you left open in step 11. You just added the synced blockchain files.
+11. Delete blocks.bin and blockindexes.bin, they should have kb range file sizes, and leave this folder open for step 12. You just removed the unsynced blockchain files.
+12. Move the copies of blocks.bin and blockindexes.bin that you downloaded to the directory ~/.bytecoin folder that you left open in step 11 You just added the synced blockchain files.
 13. Eject the disk image of the Bytecoin wallet.
 14. Launch the Bytecoin wallet from the applications folder.  The blockchain will import in increments off 1000, at least for me, then there is some syncing once the app launches.
 
-Voila, problem solved. Start the app again and you'll see the blockchain importing. It still takes awhile to sync, but this was the only way to get my wallet working.
+Voila, problem solved.  It still takes awhile to sync (1 hour), but this was the only way to get my wallet working.
 
 Please pass this on since this seems to be a common problem that the developers aren't addressing in forums.
 
@@ -41,14 +41,15 @@ ETC: 0x35291c336cd22a6876830b4c7769a2815430b02b
 
 
 MAC OS X, already sent BCN to wallet:
-I can't gaurentee this works, but it really makes sense after having figured out how to get the official wallet working!
+I can't gaurentee this works, but it really makes sense after having figured out how to get the official wallet working.
 
 1. So in the instructions above before doing anything, I would Press Cmd+Shift+G or select from menu Go -> Go to Folder and type ~/.bytecoin and press Enter
-2. drag all files that have the word wallet in them to a safe and secure location, this way when you go through the instructions and remove the ~/.bytecoin folder you do no remove your wallet.  
-3. Start with step 1 in the steps above the donation section. Since you already have BCN, donating shouldn't be a problem for you donate after you get this working.
+2. drag all files that have the word wallet in them to a safe and secure location, this way when you go through the instructions and remove the ~/.bytecoin folder you do no remove your previous wallet.  
+3. Start with step 1 in the steps above the donation section. Since you already have BCN, donating shouldn't be a problem for you after you get this working.
 3. After completing the steps above, when launching the Bytewallet there is an option to open a wallet or import a key.  Just direct the open/import to the location of your wallet files you transfered early.
 
 LINUX:
+This should probably work, let me know if not. Linux instructions would be similar to Mac
 1. Follow step 1 of MAC OS X instructions
 2. cd ~/.bytecoin
 3. rm blocks.bin blockindexes.bin

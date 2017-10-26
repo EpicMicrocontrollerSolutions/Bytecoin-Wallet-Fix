@@ -3,7 +3,7 @@ Mac OS fix for blockchain loading error and syncing errors
 
 I experienced problems with downloading and using the official Bytecoin wallet downloaded from: https://bytecoin.org/downloads. I saw many people were having the same problem and sought to figure out how to fix it. PLEASE DONATE. This is also a fix if your wallet is taking days to sync with the blockchain, it only took me 10 minutes to download blockchain and another 20-45 minutes for it to import locally through the wallet (better than 3 days).  The issue was the files are in a hidden folder so it was hard to find the blockchain files to delete.
 
-Follow these steps exactly, if you haven't already sent BCN to your wallet address prior to it syncing; i.e., you just couldn't wait for it to sync now you're scare your money is gone.
+Follow these steps exactly, if you haven't already sent BCN to your wallet address prior to it syncing; i.e., you just couldn't wait for it to sync now you're scared your money is gone.
 
 MAC OS X, no BCN in or sent to the wallet:
 1. Moving past this step will remove your wallet. If you already sent money to your wallet address, I would suggest moving all wallet files from ~/.bytecoin before moving forward. I didn't send BCN to my wallet since it wasn't synced (I’m smart). See instructions below the donation section for suggestions and steps if you had or sent BCN already.

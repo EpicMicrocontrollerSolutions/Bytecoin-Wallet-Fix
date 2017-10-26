@@ -31,7 +31,7 @@ Please pass this on since this seems to be a common problem that the developers 
 
 PLEASE DONATE!!!
 
-BCN:27oDMvGM2jJM1vMy26trGCD4FApMf4rxhfFaEXEuqN7J3BzB51q6LhnFr6MNqj3PGR4PGXzCGYQw7UemxRoRxCC97r6VTZt (since it finally works)
+BCN:21ya3g3yEpMAButNVy89RT6Q2dufbYwK4P1XwXXepani6GT2fKVcnEbLcTnrv5ZuDqj1STegSiCkyjemtHJPH2jh5dRaC1s (since it finally works)
 
 BTC: 1LuWhENdBEMhsEosCwbtvUpEJJpAWQ3dZX
 

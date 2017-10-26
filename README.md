@@ -3,10 +3,10 @@ Mac OS fix for blockchain loading error and syncing errors
 
 I experienced problems with downloading and using the official Bytecoin wallet downloaded from: https://bytecoin.org/downloads. I saw many people were having the same problem and sought to figure out how to fix it. PLEASE DONATE. This is also a fix if your wallet is taking days to sync with the blockchain, it only took me 10 minutes to download blockchain and another 20-45 minutes for it to import locally through the wallet (better than 3 days).  The issue was the files are in a hidden folder so it was hard to find the blockchain files to delete.
 
-Follow these steps exactly, if you haven't already sent BCN to your wallet address prior to it syncing.See after the donation section below for how to save your wallet.
+Follow these steps exactly, if you haven't already sent BCN to your wallet address prior to it syncing. See after the donation section below for how to save your wallet.
 
 MAC OS X, no BCN in or sent to the wallet:
-1. Moving past this step will remove your wallet. If you already sent money to your wallet address, I would suggest moving all wallet files from ~/.bytecoin before moving forward. I didn't send BCN to my wallet since it wasn't synced (I’m smart). See instructions below the donation section for suggestions and steps if you had or sent BCN already.
+1. Moving past this step will remove your wallet. See instructions below the donation section for suggestions and steps if you had or sent BCN already.
 2. Delete the Bytecoin wallet application and .dmg install files. Empty trash. Eject all Bytecoin wallet images. Seriously nothing can be on your computer associated the previous version of the Bytecoin wallet.  You're doing a fresh install through the process.
 3. Open up the terminal. You can find terminal by searching for terminal in spotlight or go to Application - Utilities -Terminal.
 4. Warning Step 5 will delete the entire hidden folder so you can do a fresh reinstall. EVERYTHING WILL BE GONE FROM THIS FOLDER INCLUDING YOUR WALLET FILE, which is why I say see below if you have money in your wallet.
@@ -43,7 +43,7 @@ ETC: 0x35291c336cd22a6876830b4c7769a2815430b02b
 MAC OS X, already sent BCN to wallet:
 I can't gaurentee this works, but it really makes sense after having figured out how to get the official wallet working.
 
-1. So in the instructions above before doing anything, I would Press Cmd+Shift+G or select from menu Go -> Go to Folder and type ~/.bytecoin and press Enter
+1. So in the instructions above before doing anything,  I would suggest moving all wallet files from ~/.bytecoin before moving forward. Press Cmd+Shift+G or select from menu Go -> Go to Folder and type ~/.bytecoin and press Enter
 2. drag all files that have the word wallet in them to a safe and secure location, this way when you go through the instructions and remove the ~/.bytecoin folder you do no remove your previous wallet.  
 3. Start with step 1 in the steps above the donation section. Since you already have BCN, donating shouldn't be a problem for you after you get this working.
 3. After completing the steps above, when launching the Bytewallet there is an option to open a wallet or import a key.  Just direct the open/import to the location of your wallet files you transfered early.

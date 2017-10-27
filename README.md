@@ -1,4 +1,4 @@
-# Bytecoin-Wallet-Fix
+# MacOSX-Bytecoin-Wallet-Fix
 Mac OS fix for blockchain loading error and syncing errors
 
 I experienced problems with downloading and using the official Bytecoin wallet downloaded from: https://bytecoin.org/downloads. I saw many people were having the same problem and sought to figure out how to fix it. PLEASE DONATE. This is also a fix if your wallet is taking days to sync with the blockchain, it only took me 10 minutes to download the complete blockchain and another 20-45 minutes for it to import locally through the wallet (better than 3 days).  The issue was the files are in a hidden folder so it was hard to find the blockchain files to delete.
